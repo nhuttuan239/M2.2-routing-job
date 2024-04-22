@@ -32,7 +32,7 @@ function JobDetailModal() {
       setJob(data);
     };
     fetchData();
-  }, []);
+  }, [id]);
 
   console.log(job);
 
