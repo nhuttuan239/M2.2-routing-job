@@ -34,4 +34,4 @@ async function getJob(id) {
   return jobs.find((job) => job.id === id);
 }
 
-export { getJobs, getJob };
+export default { getJobs, getJob };
